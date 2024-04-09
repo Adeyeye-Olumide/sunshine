@@ -1,0 +1,28 @@
+.component__footer--component {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: rgba(0, 0, 0, 0.781);
+    color: rgba(255, 255, 255, 0.705);
+    padding: 25px;
+
+    span {
+        font-weight: bold;
+    }
+
+    a {
+        text-decoration: none;
+        color: white
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+       
+
+       
+    }
+}

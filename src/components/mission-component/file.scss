@@ -1,0 +1,79 @@
+.component__mission--component {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.884);
+    // gap: 20px;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 20px;
+    // padding-right: 10px;
+
+    .heading {
+        flex: 0.2;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 20px;
+
+    }
+
+
+
+    .content {
+        flex: 1;
+        display: flex;
+        gap: 20px;
+        background-color: whitesmoke;
+        clip-path: polygon(3.75% 0%, 100% 0%, 100% 100%, 0% 100%);
+
+        padding: 30px 20px 20px 60px;
+
+        div {
+            flex: 1;
+           
+
+
+        }
+
+        .vision--mission {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 40px;
+            height: inherit;
+
+           
+
+            div {
+                box-shadow: 2px 2px 6px;
+                background-color: white;
+                height: fit-content;
+                padding: 10px;
+
+            }
+
+            .vision {
+               
+                flex: 0.2;
+    
+            }
+
+            .mission {
+                flex: 0.4;
+            }
+        }
+
+        .values {
+            padding: 10px;
+            box-shadow: 2px 2px 6px;
+            background-color: white;
+
+            span {
+                color: goldenrod;
+                font-weight: bold;
+            }
+        }
+    }
+
+    
+}
